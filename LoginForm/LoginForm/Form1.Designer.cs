@@ -54,31 +54,50 @@ namespace LoginForm
             // label1
             // 
             this.label1.AutoSize = true;
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(44, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 17);
+=======
+            this.label1.Location = new System.Drawing.Point(36, 68);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(112, 20);
+>>>>>>> 725b294e2c142ca7c55708ac9a208c7b425b7857
             this.label1.TabIndex = 2;
-            this.label1.Text = "UserName";
+            this.label1.Text = "tên đăng nhập";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(454, 57);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 17);
+=======
+            this.label2.Location = new System.Drawing.Point(518, 71);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(75, 20);
+>>>>>>> 725b294e2c142ca7c55708ac9a208c7b425b7857
             this.label2.TabIndex = 3;
-            this.label2.Text = "Password";
+            this.label2.Text = "mật khẩu";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnlogin
             // 
+<<<<<<< HEAD
             this.btnlogin.Location = new System.Drawing.Point(260, 132);
             this.btnlogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(250, 38);
+=======
+            this.btnlogin.Location = new System.Drawing.Point(292, 165);
+            this.btnlogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnlogin.Name = "btnlogin";
+            this.btnlogin.Size = new System.Drawing.Size(281, 48);
+>>>>>>> 725b294e2c142ca7c55708ac9a208c7b425b7857
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "Login";
+            this.btnlogin.Text = "Đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
