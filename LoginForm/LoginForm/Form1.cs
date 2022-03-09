@@ -36,5 +36,16 @@ namespace LoginForm
         {
 
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            string username = textboxusername.Text;
+            string pwd = textboxmatkhau.Text;
+
+            if (username == "admin" && pwd == "admin")
+            {
+                MessageBox.Show("Đăng nhập thành công!");
+            }
+        }
     }
 }
